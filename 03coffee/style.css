@@ -391,6 +391,90 @@ hr{
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 
+@media (max-width: 575px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .col-33{
+        width: 100%;
+    }
+    .col-25{
+        width: 100%;
+    }
+    #navbar{
+        padding: 50px 0;
+    }
+    .nav{
+        display: none;
+    }
+    #navbar #nav-btn:checked ~ .nav{
+        display: block;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        padding: 0px 210px;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .nav a{
+        padding: 8px 0;
+        display: block;
+        color: white;
+    }
+    #section2 button{
+        margin: 50px 0;
+    }
+    #section3 .row{
+        flex-direction: column-reverse;
+    }
+    #section3 button{
+        margin: 50px 0;
+    }
+    #section4 button{
+        margin: 50px 0;
+    }
+    .ban4, .ban3 , .ban2{
+        display: none;
+    }
+    .hright, .hleft{
+        background-color: #122341;
+    }
+    .img2, .img4{
+        width: 50%;
+        position: absolute;
+        top: 50px;
+        left: 360px;
+    }
+    .img3{
+        width: 50%;
+        position: absolute;
+        top: 50px;
+        left: -50px;
+    }
+    .bod2, .bod4{
+        width: 54%;
+        position: absolute;
+        top: 40px;
+        left: 350px;
+        filter: drop-shadow(0 0 8px rgba(0,0,0,0.26));
+    }
+    .bod3{
+        width: 54%;
+        position: absolute;
+        top: 35px;
+        left: -60px;
+        filter: drop-shadow(0 0 8px rgba(0,0,0,0.26));
+    }
+    .leaf{
+        display: none;
+    }
+    .row8{
+        margin: 0 105px;
+    }
+}
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .container{
